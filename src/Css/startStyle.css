@@ -1,0 +1,23 @@
+* {
+    -fx-background-color: white;
+}
+
+.button-style {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.button-style:hover {
+    -fx-background-color: #45a049;
+}
+.label{
+    -fx-font-size: 12pt;
+    -fx-font-weight: bold;
+}
+
+
+

@@ -1,0 +1,128 @@
+
+.button-style {
+    -fx-background-color: #00c9bd;
+    -fx-text-fill: white;
+    -fx-font-size: 13px;
+    -fx-padding: 10px 20px;
+    -fx-cursor: hand;
+    -fx-min-width: 190px;
+    -fx-min-height: 40px;
+    -fx-font-weight: bold;
+}
+
+.button-style:hover {
+    -fx-background-color: #0eb5ab;
+}
+.sid{
+    -fx-background-color: #00c9bd;
+    -fx-pref-width: 190px;
+}
+.aaa{
+
+    -fx-background-color: #039e95;
+}
+
+.pg{
+    -fx-font-size: 16px;
+    -fx-alignment: center;
+    -fx-padding: 10px 20px;
+    -fx-text-fill: white;
+    -fx-background-color: #039e95;
+    -fx-pref-width: 680px;
+    -fx-min-height: 50px;
+}
+.bk{
+    -fx-font-size: 25px;
+}
+
+.actv{
+
+    -fx-background-color: #0eb5ab;
+    -fx-text-fill: white;
+
+}
+.radio-button {
+    -fx-font-size: 14px;
+    -fx-text-fill: #000000;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.radio-button:selected .radio {
+    -fx-background-color: #00c9bd; /* Selected background color */
+    -fx-border-color: #00c9bd; /* Selected border color */
+    -fx-border-width: 2px;
+}
+
+.radio-button .radio {
+    -fx-background-color: transparent; /* Default background color */
+    -fx-border-color: #000000; /* Default border color */
+    -fx-border-width: 2px;
+    -fx-border-radius: 50%;
+    -fx-padding: 4px;
+}
+
+.radio-button:selected .radio {
+    -fx-background-color: #00c9bd; /* Selected background color */
+    -fx-border-color: #00c9bd; /* Selected border color */
+}
+.button-style2 {
+    -fx-background-color: #00c9bd;
+    -fx-text-fill: white;
+    -fx-font-size: 25px;
+    -fx-padding: 10px 20px;
+    -fx-cursor: hand;
+    -fx-min-width: 190px;
+    -fx-min-height: 40px;
+    -fx-font-weight: bold;
+}
+
+.button-style2:hover {
+    -fx-background-color: #0eb5ab;
+}
+/* تغيير لون خلفية الجدول */
+.table-view {
+    -fx-background-color: #f2f2f2;
+}
+
+/* تغيير لون خلفية الخلية المحددة */
+.table-row-cell:selected {
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+}
+
+/* تغيير لون النص في الخلايا */
+.table-cell {
+    -fx-text-fill: #333333;
+}
+
+/* تغيير لون خطوط الجدول */
+.table-row-cell {
+    -fx-border-color: #cccccc;
+    -fx-border-width: 0 0 1 0;
+}
+
+/* تغيير لون رأس العمود */
+.table-column-header {
+    -fx-background-color: #f2f2f2;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 0 0 1 0;
+}
+
+/* تغيير لون نص رأس العمود */
+.table-column-header .label {
+    -fx-text-fill: #333333;
+}
+.button-style3 {
+    -fx-background-color: #00c9bd;
+    -fx-text-fill: white;
+    -fx-padding: 5px 10px;
+    -fx-cursor: hand;
+    -fx-min-width: 40px;
+    -fx-min-height: 3px;
+    -fx-font-weight: bold;
+}
+
+.button-style3:hover {
+    -fx-background-color: #0eb5ab;
+}
